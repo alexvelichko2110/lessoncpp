@@ -47,7 +47,8 @@ int main()
     Base *b = d;
     
     b->show();
-
+    
+    delete b;
 
     return 0;
 }
