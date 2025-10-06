@@ -35,6 +35,9 @@ add_definitions(-std=c++11)
 add_executable (test-virtual virtual.cpp )
 target_link_libraries (test-virtual)
 
+add_executable (test-listener listener.cpp )
+target_link_libraries (test-listener)
+
 
 add_custom_target(clean-all
     COMMAND rm -f Makefile
